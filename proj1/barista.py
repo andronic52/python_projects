@@ -34,7 +34,8 @@ if name == 'ben' or name == 'patricia' or name == 'loki':
         quantity = int(input('how manny coffees would you like??'))
         total = quantity * price
 
-        print(f"sounds good {name}, we'll have your {quantity} {order}s in a moment.")
+        print(
+            f"sounds good {name}, we'll have your {quantity} {order}s in a moment.")
         print('Your total will be {}€ .'.format(total))
 elif name != 'ben' or 'patricia' or 'loki':
     print(f'Welcome {name}!! Is a great day today isnt it?\n')
@@ -62,5 +63,6 @@ elif name != 'ben' or 'patricia' or 'loki':
     quantity = int(input('how manny coffees would you like??'))
     total = quantity * price
 
-    print(f"sounds good {name}, we'll have your {quantity} {order}s in a moment.")
+    print(
+        f"sounds good {name}, we'll have your {quantity} {order}s in a moment.")
     print(f'Your total will be {total}€ .')
